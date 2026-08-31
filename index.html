@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سوق وحدة السودان — منصة التجار والخدمات السودانية</title>
+<meta name="description" content="منصة سودانية تجمع التجار ومزودي الخدمات والمشترين في مكان واحد">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&family=Noto+Kufi+Arabic:wght@400..700&family=Space+Grotesk:wght@400..600&family=Noto+Sans+SC:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="assets/logo.png">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="سوق وحدة السودان" class="brand-logo">
+      <span class="brand-name" data-i18n="brandName">سوق وحدة السودان</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#categories" data-i18n="navCategories">الأقسام</a>
+      <a href="#merchants" data-i18n="navMerchants">للتجار</a>
+      <a href="#trust" data-i18n="navTrust">لماذا نحن</a>
+      <a href="#contact" data-i18n="navContact">تواصل</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" data-lang="ar" class="lang-btn active">AR</button>
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+        <button type="button" data-lang="zh" class="lang-btn">中文</button>
+      </div>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="hero-eyebrow" data-i18n="heroTagline">معاً.. لسودان أقوى وأفضل</p>
+      <h1 data-i18n="heroTitle">سوقك السوداني الرقمي، بلا وسيط دفع معقّد</h1>
+      <p class="hero-sub" data-i18n="heroSub">اعرض بضاعتك أو خدمتك، وتواصل مع الزبون مباشرة — كما اعتدت في السوق، لكن على الإنترنت.</p>
+
+      <form class="search-bar" id="searchForm">
+        <input type="text" data-i18n-placeholder="searchPlaceholder" placeholder="ابحث عن منتج، خدمة، أو تاجر...">
+        <button type="submit" data-i18n="searchBtn">بحث</button>
+      </form>
+
+      <div class="hero-ctas">
+        <a href="#merchants" class="btn btn-primary" data-i18n="ctaMerchant">افتح دكانك الرقمي</a>
+        <a href="#categories" class="btn btn-ghost" data-i18n="ctaBrowse">تصفّح الأقسام</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories" id="categories">
+    <div class="wrap">
+      <h2 data-i18n="categoriesTitle">الأقسام</h2>
+      <div class="cat-grid">
+        <a href="#" class="cat-card"><span data-i18n="catFood">مواد غذائية</span></a>
+        <a href="#" class="cat-card"><span data-i18n="catClothes">ملابس وأزياء</span></a>
+        <a href="#" class="cat-card"><span data-i18n="catElectronics">إلكترونيات</span></a>
+        <a href="#" class="cat-card"><span data-i18n="catHome">أدوات منزلية</span></a>
+        <a href="#" class="cat-card"><span data-i18n="catServices">خدمات حرفية</span></a>
+        <a href="#" class="cat-card"><span data-i18n="catMore">قطاعات أخرى</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust" id="trust">
+    <div class="wrap trust-inner">
+      <h2 data-i18n="trustTitle">لماذا سوق وحدة السودان</h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <h3 data-i18n="trustDirectTitle">تواصل مباشر</h3>
+          <p data-i18n="trustDirectBody">تتفق مع التاجر مباشرة على السعر والتسليم، بدون وسيط دفع إلكتروني معقّد.</p>
+        </div>
+        <div class="trust-item">
+          <h3 data-i18n="trustFreeTitle">مجاني للجميع</h3>
+          <p data-i18n="trustFreeBody">عرض دكانك ومنتجاتك بلا رسوم اشتراك في هذه المرحلة.</p>
+        </div>
+        <div class="trust-item">
+          <h3 data-i18n="trustNationalTitle">منصة وطنية</h3>
+          <p data-i18n="trustNationalBody">تجمع تجار السودان ومناطقه المختلفة في مكان واحد يسهل الوصول إليه.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="merchant-cta" id="merchants">
+    <div class="wrap merchant-inner">
+      <div>
+        <h2 data-i18n="merchantTitle">هل تملك تجارة أو تقدّم خدمة؟</h2>
+        <p data-i18n="merchantBody">افتح دكانك الرقمي في دقائق: أضف منتجاتك، صورك، وأسعارك، ودع الزبائن يصلون إليك مباشرة.</p>
+        <a href="#" class="btn btn-primary" data-i18n="merchantCta">سجّل كتاجر الآن</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="سوق وحدة السودان" class="footer-logo">
+      <p data-i18n="footerTagline">معاً.. لسودان أقوى وأفضل</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:suqwahdatalsudan@gmail.com" data-i18n="footerContact">راسلنا</a>
+      <a href="#" data-i18n="footerComplaints">الشكاوى والاقتراحات</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 سوق وحدة السودان</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+  </html>
